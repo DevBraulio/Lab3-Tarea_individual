@@ -1,0 +1,30 @@
+{
+  "name": "weather-forecast-app",
+  "version": "1.0.0",
+  "description": "Weather Forecast SPA — TAIS Lab 03 — Spec-driven development with Open-Meteo API",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "dev": "pnpm dlx serve . -p 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.2.2",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "@vitest/ui": "^5.0.5",
+    "fast-check": "^4.10.2",
+    "jsdom": "^30.1.3",
+    "vitest": "^5.0.5"
+  }
+}
